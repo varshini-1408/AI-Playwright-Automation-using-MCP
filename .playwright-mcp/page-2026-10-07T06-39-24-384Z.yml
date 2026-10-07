@@ -1,0 +1,43 @@
+- generic [ref=f22e3]:
+  - generic [ref=f22e4]:
+    - banner [ref=f22e5]:
+      - generic [ref=f22e6]:
+        - generic:
+          - generic:
+            - generic [ref=f22e7]:
+              - button "Open Menu" [ref=f22e8] [cursor=pointer]
+              - img "Open Menu" [ref=f22e9]
+            - generic [aria-hidden] [ref=f22e10]:
+              - navigation [ref=f22e12]:
+                - button [ref=f22e13] [cursor=pointer]: All Items
+                - button [ref=f22e14] [cursor=pointer]: Dynamic Catalog
+                - link [ref=f22e16] [cursor=pointer]:
+                  - /url: https://saucelabs.com/
+                  - text: About
+                - button [ref=f22e17] [cursor=pointer]: Logout
+                - button [ref=f22e18] [cursor=pointer]: Reset App State
+              - button [ref=f22e20] [cursor=pointer]: Close Menu
+        - generic [ref=f22e22]: Swag Labs
+        - button "Cart, empty" [ref=f22e25]
+      - generic [ref=f22e26]: "Checkout: Your Information"
+    - main [ref=f22e28]:
+      - form "Checkout information" [ref=f22e30]:
+        - generic [ref=f22e31]:
+          - textbox "First Name" [ref=f22e33]
+          - textbox "Last Name" [ref=f22e35]
+          - textbox "Zip/Postal Code" [ref=f22e37]
+        - generic [ref=f22e39]:
+          - button "Cancel" [ref=f22e40] [cursor=pointer]
+          - button "Continue" [ref=f22e41] [cursor=pointer]
+  - contentinfo [ref=f22e42]:
+    - list [ref=f22e43]:
+      - listitem [ref=f22e44]:
+        - link "X" [ref=f22e45] [cursor=pointer]:
+          - /url: https://x.com/saucelabs
+      - listitem [ref=f22e46]:
+        - link "Facebook" [ref=f22e47] [cursor=pointer]:
+          - /url: https://www.facebook.com/saucelabs
+      - listitem [ref=f22e48]:
+        - link "LinkedIn" [ref=f22e49] [cursor=pointer]:
+          - /url: https://www.linkedin.com/company/sauce-labs/
+    - generic [ref=f22e50]: © 2026 Sauce Labs. All Rights Reserved. Terms of Service | Privacy Policy

@@ -1,0 +1,39 @@
+- generic [ref=f24e3]:
+  - generic [ref=f24e4]:
+    - banner [ref=f24e5]:
+      - generic [ref=f24e6]:
+        - generic:
+          - generic:
+            - generic [ref=f24e7]:
+              - button "Open Menu" [ref=f24e8] [cursor=pointer]
+              - img "Open Menu" [ref=f24e9]
+            - generic [aria-hidden] [ref=f24e10]:
+              - navigation [ref=f24e12]:
+                - button [ref=f24e13] [cursor=pointer]: All Items
+                - button [ref=f24e14] [cursor=pointer]: Dynamic Catalog
+                - link [ref=f24e16] [cursor=pointer]:
+                  - /url: https://saucelabs.com/
+                  - text: About
+                - button [ref=f24e17] [cursor=pointer]: Logout
+                - button [ref=f24e18] [cursor=pointer]: Reset App State
+              - button [ref=f24e20] [cursor=pointer]: Close Menu
+        - generic [ref=f24e22]: Swag Labs
+        - button "Cart, empty" [ref=f24e25]
+      - generic [ref=f24e26]: "Checkout: Complete!"
+    - main [ref=f24e28]:
+      - img "Pony Express"
+      - heading "Thank you for your order!" [level=2] [ref=f24e29]
+      - generic [ref=f24e30]: Your order has been dispatched, and will arrive just as fast as the pony can get there!
+      - button "Back Home" [ref=f24e32] [cursor=pointer]
+  - contentinfo [ref=f24e33]:
+    - list [ref=f24e34]:
+      - listitem [ref=f24e35]:
+        - link "X" [ref=f24e36] [cursor=pointer]:
+          - /url: https://x.com/saucelabs
+      - listitem [ref=f24e37]:
+        - link "Facebook" [ref=f24e38] [cursor=pointer]:
+          - /url: https://www.facebook.com/saucelabs
+      - listitem [ref=f24e39]:
+        - link "LinkedIn" [ref=f24e40] [cursor=pointer]:
+          - /url: https://www.linkedin.com/company/sauce-labs/
+    - generic [ref=f24e41]: © 2026 Sauce Labs. All Rights Reserved. Terms of Service | Privacy Policy
